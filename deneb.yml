@@ -19,4 +19,4 @@ logging:
 cygnus:
   sadr:
     name: sadr
-    pingUrl: http://${cygnus.sadr.name}/ping/
+    pingUrl: http://localhost:3331/sadr/ping/
