@@ -14,7 +14,8 @@ logging:
     com.netflix.discovery: 'OFF'
     org.springframework.cloud: 'DEBUG'
     org.springframework.web: 'DEBUG'
-    com.atsistemas: 'DEBUG'
-
+    com.atsistemas: 'DEBUG
+    
 sadr:
-    pingUrl: http://localhost:3331/sadr/ping/
+    name: sadr
+    pingUrl: http://${sadr.name}/ping/
