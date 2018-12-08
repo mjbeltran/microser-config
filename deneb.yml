@@ -18,4 +18,5 @@ logging:
     
 sadr:
     name: sadr
-    pingUrl: http://${sadr.name}/ping/
+    port: 3331
+    pingUrl: http://${sadr.name}:${sadr.port}/ping/
